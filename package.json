@@ -4,6 +4,10 @@
   "description": "",
   "license": "MIT",
   "author": "",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "commonjs",
   "main": "src/index.js",
   "types": "src/index.ts",
