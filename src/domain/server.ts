@@ -1,8 +1,6 @@
-import { Uri } from "vscode";
-
 export class Server {
   constructor(
-    private uri: Uri,
+    private uri: URL,
     private name: string,
   ) {}
 
