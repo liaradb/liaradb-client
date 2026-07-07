@@ -13,7 +13,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "prepack": "rm -rf ./dist && tsc"
   },
   "devDependencies": {
     "@grpc/grpc-js": "^1.14.4",

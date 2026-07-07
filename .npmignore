@@ -1,3 +1,5 @@
 node_modules
 definitions
 .DS_Store
+src
+liaradb-liaradb-client-*
